@@ -1,0 +1,63 @@
+*
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Title 
+{
+    text-align: center;
+}
+
+html 
+{
+    background-color: white;
+}
+
+
+
+
+.Sub-title
+{
+    text-align: center;
+}
+
+.Main-nav
+{
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.Main-nav li
+{
+    display: inline;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.Desc
+{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin: 0%;
+}
+
+h4
+{
+    text-align: center;
+    margin: 0%;
+    padding-top: 5%;
+}
+
+.Picture
+{
+    width: 40%;
+    height: 40%;
+    padding-left: 30%;
+}
