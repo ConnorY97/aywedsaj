@@ -13,7 +13,18 @@ html
 }
 
 
+h1 
+{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 0%;
+}
 
+h3 
+{
+    text-align: center;
+    font-weight: normal;
+}
 
 .Sub-title
 {
@@ -23,6 +34,7 @@ html
 .Main-nav
 {
     text-align: center;
+    margin-top: 30px;
     padding-left: 0%;
     padding-right: 0%;
 }
@@ -42,17 +54,21 @@ a
 
 .Desc
 {
-    text-align: center;
-    padding-left: 30%;
+    text-align: left;
     padding-right: 30%;
     margin: 0%;
 }
 
 h4
 {
-    text-align: center;
+    text-align: left;
     margin: 0%;
     padding-top: 1.5%;
+}
+
+p
+{
+    text-align: left;
 }
 
 h6
@@ -77,38 +93,17 @@ h6
 
 a 
 {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer
 {
-	width: 100%;
+	text-align: center;
     position: fixed;
+    padding-left: 45%;
     bottom: 0%;
-    /* left: 10%; */
-    /* transform: translate(-50%, 0); */
 }
 
-footer .Logo
-{
-	position: absolute; 
-    width: 50px;
-    height: 50px;
-	left: 50%;
-	bottom: 0%;
-	transform: translateX(-50%);
-
-
-	
-    /* padding-left: 100%; */
-}
-
-footer h6
-{
-	position: relative;
-	display: inline;
-	padding: 0%;
-}
 
 .Picture
 {
@@ -119,7 +114,7 @@ footer h6
     height: 30%;
 }
 
-#Home
+/* #Home
 {
 	background-image: url(AandJ.jpeg), url(Smile.jpeg);
 	background-repeat: no-repeat;
@@ -135,4 +130,4 @@ footer h6
 	background-position: left, right;
 	background-size: 28%, 28%;
 	background-position-y: center;
-}
+} */
