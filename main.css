@@ -12,7 +12,6 @@ html
     background-color: white;
 }
 
-
 h1 
 {
     text-align: center;
@@ -22,6 +21,7 @@ h1
 
 h3 
 {
+	font-family: Taviraj;
     text-align: center;
     font-weight: normal;
 }
@@ -34,7 +34,9 @@ h3
 .Main-nav
 {
     text-align: center;
-    margin-top: 30px;
+
+    margin-top: 60px;
+	margin-bottom: 60px;
     padding-left: 0%;
     padding-right: 0%;
 }
@@ -42,8 +44,9 @@ h3
 .Main-nav li
 {
     display: inline;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
+    padding-left: 30px;
+    padding-right: 30px;
+	font-weight: bold;
 }
 
 a
@@ -54,8 +57,7 @@ a
 
 .Desc
 {
-    text-align: left;
-    padding-right: 30%;
+    text-align: center;
     margin: 0%;
 }
 
@@ -91,6 +93,25 @@ h6
     margin-bottom: 5%;
 }
 
+#Accomodation .Desc
+{
+	text-align: center;
+	padding-right: 0px;
+}
+
+#Transport .Desc
+{
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 20px;
+}
+
+h4
+{
+	text-align: center;
+}
+
 a 
 {
     text-decoration: none;
@@ -99,8 +120,6 @@ a
 footer
 {
 	text-align: center;
-    position: fixed;
-    padding-left: 45%;
     bottom: 0%;
 }
 
@@ -110,8 +129,24 @@ footer
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-    height: 30%;
+    width: 750px;
+    height: 450px;
+}
+
+#Wedding .Picture
+{
+	display: inline;
+	height: 300px;
+}
+
+#Wedding .Desc
+{
+	margin-left: 20px;
+}
+
+#Wedding h4 
+{
+	margin-left: 20px;
 }
 
 /* #Home
