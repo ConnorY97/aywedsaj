@@ -26,6 +26,24 @@ h3
     font-weight: normal;
 }
 
+.Email
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Email input
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h5 
+{
+	text-align: center;
+}
+
 .Sub-title
 {
     text-align: center;
@@ -149,23 +167,7 @@ footer
 	margin-left: 20px;
 }
 
-.Email
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
 
-.Email input
-{
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-h5 
-{
-	text-align: center;
-}
 /* #Home
 {
 	background-image: url(AandJ.jpeg), url(Smile.jpeg);
